@@ -3,14 +3,14 @@
  */
 package org.openforis.collect.manager.samplingdesignimport;
 
-import org.openforis.collect.manager.referencedataimport.ParsingError;
-import org.openforis.collect.manager.referencedataimport.ReferenceDataImportStatus;
+import org.openforis.collect.manager.dataimport.DataImportStatus;
+import org.openforis.collect.manager.dataimport.ParsingError;
 
 /**
  * @author S. Ricci
  *
  */
 public class SamplingDesignImportStatus extends
-		ReferenceDataImportStatus<ParsingError> {
+		DataImportStatus<ParsingError> {
 
 }

@@ -12,10 +12,10 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openforis.collect.manager.SamplingDesignManager;
+import org.openforis.collect.manager.dataimport.ParsingError;
+import org.openforis.collect.manager.dataimport.ParsingException;
+import org.openforis.collect.manager.dataimport.ParsingError.ErrorType;
 import org.openforis.collect.manager.process.AbstractProcess;
-import org.openforis.collect.manager.referencedataimport.ParsingError;
-import org.openforis.collect.manager.referencedataimport.ParsingError.ErrorType;
-import org.openforis.collect.manager.referencedataimport.ParsingException;
 import org.openforis.collect.model.CollectSurvey;
 import org.openforis.collect.model.SamplingDesignItem;
 

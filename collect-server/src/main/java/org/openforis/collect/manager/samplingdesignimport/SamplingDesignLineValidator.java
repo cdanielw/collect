@@ -3,8 +3,8 @@ package org.openforis.collect.manager.samplingdesignimport;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openforis.collect.manager.referencedataimport.ParsingError;
-import org.openforis.collect.manager.referencedataimport.ParsingError.ErrorType;
+import org.openforis.collect.manager.dataimport.ParsingError;
+import org.openforis.collect.manager.dataimport.ParsingError.ErrorType;
 import org.openforis.collect.model.CollectSurvey;
 import org.openforis.idm.metamodel.SpatialReferenceSystem;
 

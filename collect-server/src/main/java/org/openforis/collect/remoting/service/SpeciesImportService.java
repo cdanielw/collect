@@ -3,10 +3,10 @@ package org.openforis.collect.remoting.service;
 import java.io.File;
 
 import org.openforis.collect.manager.SpeciesManager;
-import org.openforis.collect.manager.speciesimport.SpeciesImportProcess;
-import org.openforis.collect.manager.speciesimport.SpeciesImportStatus;
+import org.openforis.collect.manager.dataimport.species.SpeciesImportProcess;
+import org.openforis.collect.manager.dataimport.species.SpeciesImportStatus;
+import org.openforis.collect.manager.dataimport.species.proxy.SpeciesImportStatusProxy;
 import org.openforis.collect.remoting.service.dataimport.DataImportExeption;
-import org.openforis.collect.remoting.service.speciesimport.proxy.SpeciesImportStatusProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 

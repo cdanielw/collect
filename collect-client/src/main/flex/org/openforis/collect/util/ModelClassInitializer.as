@@ -80,7 +80,7 @@ package org.openforis.collect.util {
 	import org.openforis.collect.remoting.service.dataimport.FileUnmarshallingErrorProxy;
 	import org.openforis.collect.remoting.service.dataimport.NodeUnmarshallingErrorProxy;
 	import org.openforis.collect.remoting.service.samplingdesignimport.proxy.SamplingDesignImportStatusProxy;
-	import org.openforis.collect.remoting.service.speciesimport.proxy.SpeciesImportStatusProxy;
+	import org.openforis.collect.manager.dataimport.species.proxy.SpeciesImportStatusProxy;
 	import org.openforis.idm.metamodel.validation.ValidationResultFlag;
 
 	/**

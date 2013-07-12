@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
-import org.openforis.collect.manager.referencedataimport.CSVDataImportReader;
-import org.openforis.collect.manager.referencedataimport.CSVLineParser;
-import org.openforis.collect.manager.referencedataimport.ParsingError;
-import org.openforis.collect.manager.referencedataimport.ParsingException;
-import org.openforis.collect.manager.referencedataimport.ParsingError.ErrorType;
+import org.openforis.collect.manager.dataimport.CSVDataImportReader;
+import org.openforis.collect.manager.dataimport.CSVLineParser;
+import org.openforis.collect.manager.dataimport.ParsingError;
+import org.openforis.collect.manager.dataimport.ParsingException;
+import org.openforis.collect.manager.dataimport.ParsingError.ErrorType;
 import org.openforis.commons.io.csv.CsvLine;
 
 /**

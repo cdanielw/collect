@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openforis.collect.manager.SpeciesManager;
-import org.openforis.collect.manager.speciesimport.SpeciesFileColumn;
+import org.openforis.collect.manager.dataimport.species.SpeciesFileColumn;
 import org.openforis.collect.metamodel.TaxonSummaries;
 import org.openforis.collect.metamodel.TaxonSummary;
 import org.openforis.commons.io.csv.CsvWriter;

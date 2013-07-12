@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 import org.openforis.collect.CollectIntegrationTest;
 import org.openforis.collect.manager.codelistimport.CodeListImportProcess;
 import org.openforis.collect.manager.codelistimport.CodeListImportStatus;
-import org.openforis.collect.manager.referencedataimport.ParsingError;
+import org.openforis.collect.manager.dataimport.ParsingError;
 import org.openforis.collect.model.CollectSurvey;
 import org.openforis.collect.persistence.SurveyImportException;
 import org.openforis.idm.metamodel.CodeList;

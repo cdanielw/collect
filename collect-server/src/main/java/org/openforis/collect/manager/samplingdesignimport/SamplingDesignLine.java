@@ -2,7 +2,7 @@ package org.openforis.collect.manager.samplingdesignimport;
 
 import java.util.List;
 
-import org.openforis.collect.manager.referencedataimport.Line;
+import org.openforis.collect.manager.dataimport.Line;
 import org.openforis.commons.collection.CollectionUtils;
 
 /**

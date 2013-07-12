@@ -15,6 +15,13 @@
 		<jooq-codegen.version>2.5.0</jooq-codegen.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>gbif-all</id>
+			<url>http://repository.gbif.org/content/groups/gbif</url>
+		</repository>
+	</repositories>
+	
 	<build>
 		<plugins>
 			<!-- Read dev properties -->
@@ -320,12 +327,18 @@
 			<artifactId>lucene-core</artifactId>
 			<version>3.6.1</version>
 		</dependency>
-    <dependency>
-    	<groupId>org.liquibase</groupId>
-    	<artifactId>liquibase-core</artifactId>
-    	<version>2.0.5</version>
-    </dependency>
-		<!--  TEST DEPENDENCIES -->
+	    <dependency>
+	    	<groupId>org.liquibase</groupId>
+	    	<artifactId>liquibase-core</artifactId>
+	    	<version>2.0.5</version>
+	    </dependency>
+		<dependency>
+			<groupId>org.gbif</groupId>
+			<artifactId>ecat-common</artifactId>
+			<version>1.6</version>
+		</dependency>
+		
+   		<!--  TEST DEPENDENCIES -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
@@ -373,4 +386,5 @@
 			<scope>test</scope>
 		</dependency>		
 	</dependencies>
+	
 </project>

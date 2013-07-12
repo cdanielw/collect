@@ -85,11 +85,12 @@
                                 <includeClass>org.openforis.collect.Proxy</includeClass>
                                 <includeClass>org.openforis.collect.manager.dataexport.DataExportStatus$Format</includeClass>
                                 <includeClass>org.openforis.collect.manager.dataexport.proxy.DataExportStatusProxy</includeClass>
+                                <includeClass>org.openforis.collect.manager.dataimport.ParsingError$ErrorType</includeClass>
+                                <includeClass>org.openforis.collect.manager.dataimport.proxy.*</includeClass>
+                                <includeClass>org.openforis.collect.manager.dataimport.species.proxy.*</includeClass>
                                 <includeClass>org.openforis.collect.manager.process.ProcessStatus</includeClass>
                                 <includeClass>org.openforis.collect.manager.process.ProcessStatus$Step</includeClass>
                                 <includeClass>org.openforis.collect.manager.process.proxy.*</includeClass>
-                                <includeClass>org.openforis.collect.manager.referencedataimport.ParsingError$ErrorType</includeClass>
-                                <includeClass>org.openforis.collect.manager.referencedataimport.proxy.*</includeClass>
                                 <includeClass>org.openforis.collect.metamodel.NodeDefinitionSummary</includeClass>
                                 <includeClass>org.openforis.collect.metamodel.proxy.*</includeClass>
                                 <includeClass>org.openforis.collect.metamodel.ui.UIOptions$Direction</includeClass>
@@ -113,7 +114,6 @@
                                 <includeClass>org.openforis.collect.remoting.service.dataimport.DataImportSummaryItemProxy</includeClass>
                                 <includeClass>org.openforis.collect.remoting.service.dataimport.FileUnmarshallingErrorProxy</includeClass>
                                 <includeClass>org.openforis.collect.remoting.service.dataimport.NodeUnmarshallingErrorProxy</includeClass>
-                                <includeClass>org.openforis.collect.remoting.service.speciesimport.proxy.*</includeClass>
                                 <includeClass>org.openforis.collect.remoting.service.samplingdesignimport.proxy.*</includeClass>
 							</includeJavaClasses>
 						</configuration>

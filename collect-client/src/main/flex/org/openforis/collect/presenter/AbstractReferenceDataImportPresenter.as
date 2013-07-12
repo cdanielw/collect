@@ -21,7 +21,7 @@ package org.openforis.collect.presenter {
 	import org.openforis.collect.event.PaginationBarEvent;
 	import org.openforis.collect.i18n.Message;
 	import org.openforis.collect.manager.process.ProcessStatus$Step;
-	import org.openforis.collect.manager.referencedataimport.proxy.ReferenceDataImportStatusProxy;
+	import org.openforis.collect.manager.dataimport.proxy.DataImportStatusProxy;
 	import org.openforis.collect.ui.component.datagrid.PaginationBar;
 	import org.openforis.collect.ui.view.AbstractReferenceDataImportView;
 	import org.openforis.collect.util.AlertUtil;
@@ -45,7 +45,7 @@ package org.openforis.collect.presenter {
 		protected var _view:AbstractReferenceDataImportView;
 		protected var _fileReference:FileReference;
 		protected var _progressTimer:Timer;
-		protected var _state:ReferenceDataImportStatusProxy;
+		protected var _state:DataImportStatusProxy;
 		protected var _messageKeys:ReferenceDataImportMessageKeys;
 		protected var _uploadUrl:String;
 		protected var _uploadFileNamePrefix:String;
@@ -243,7 +243,7 @@ package org.openforis.collect.presenter {
 		}
 		
 		protected function getStatusResultHandler(event:ResultEvent, token:Object = null):void {
-			_state = event.result as ReferenceDataImportStatusProxy;
+			_state = event.result as DataImportStatusProxy;
 			updateView();
 		}
 		
